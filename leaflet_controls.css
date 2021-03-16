@@ -1,0 +1,58 @@
+/*.leaflet-horizontalcenter {*/
+/*  position: absolute;*/
+/*  left: 50%;*/
+/*  transform: translateX(-50%);*/
+/*  padding-top: 10px;*/
+/*}*/
+
+/*.leaflet-horizontalcenter .leaflet-control {*/
+/*  margin-bottom: 10px;*/
+/*}*/
+
+button {
+    background: white;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px 10px;
+    position: relative;
+    float: left;
+    width: 10%;
+    top: 30%;
+    left: 30%;
+}
+
+#header-text {
+    float: left;
+    width: 10%;
+    text-align: center;
+}
+
+button:focus {
+    background: lightgrey;
+}
+
+nav {
+    position: fixed;
+    height: 50px;
+    margin-bottom: 1em;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: ivory;
+}
+
+body > div.container {
+    position: fixed;
+    top: calc(50px);
+    bottom: calc(0px);
+    right: 0;
+    left: 0;
+    vertical-align: top;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
